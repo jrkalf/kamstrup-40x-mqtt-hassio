@@ -1,0 +1,21 @@
+---
+version: 0.0.1
+slug: kamstrup2mqtt
+name: Kamstrup2mqtt Add-On
+description: Read Kamstrup 402 and 403 data and output to MQTT
+url: https://github.com/jrkalf/kamstrup-40x-mqtt-hassio
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+auth_api: true
+options:
+  logins: []
+schema:
+  logins:
+    - username: str
+      password: password
+startup: system
+init: false
