@@ -1,21 +1,32 @@
 ---
-version: 0.0.1
-slug: kamstrup2mqtt
-name: Kamstrup2mqtt Add-On
-description: Read Kamstrup 402 and 403 data and output to MQTT
+version: 0.1.5
+slug: kamstrup
+name: Kamstrup 402 & 403 Logger
+description: Kamstrup Warmtemeter data logger
 url: https://github.com/jrkalf/kamstrup-40x-mqtt-hassio
 arch:
-  - armhf
-  - armv7
   - aarch64
   - amd64
+  - armhf
+  - armv7
   - i386
 auth_api: true
+services:
+  - mqtt:need
 options:
-  logins: []
+  mqtt_host: "10.10.10.10"
+  mqtt_port: "1883"
+  mqtt_username: "homeassistant"
+  mqtt_password: "ultrasecretstuffhappenshere"
+  mqtt_authentication: "true"
+  serial_device: "/dev/ttyUSB0"
+  poll_interval: "28"
 schema:
-  logins:
-    - username: str
-      password: password
-startup: system
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: password
+  mqtt_authentication: bool
+  serial_device: device(subsystem=tty)
+  poll_interval: int
 init: false
