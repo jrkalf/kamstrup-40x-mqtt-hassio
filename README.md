@@ -1,3 +1,5 @@
+# kamstrup-40x-mqtt-hassio
+
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
 [![License][license-shield]](LICENSE.md)
@@ -8,11 +10,9 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
-[![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-# kamstrup-40x-mqtt-hassio
 This is a Docker wrapper around the github project of Matthijs Visser (https://github.com/matthijsvisser/kamstrup-402-mqtt) to make it available as https://home-assistant.io addon.
 
 ## Pre-requisite
