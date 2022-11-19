@@ -3,6 +3,11 @@
 ![GitHub](https://img.shields.io/github/license/jrkalf/kamstrup-40x-mqtt-hassio)
 ![GitHub issues](https://img.shields.io/github/issues/jrkalf/kamstrup-40x-mqtt-hassio)
 
+![Supports aarch64 Architecture][aarch64-shield]
+![Supports amd64 Architecture][amd64-shield]
+![Supports armhf Architecture][armhf-shield]
+![Supports armv7 Architecture][armv7-shield]
+![Supports i386 Architecture][i386-shield]
 ![Maintenance](https://img.shields.io/maintenance/yes/2022)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/jrkalf/kamstrup-40x-mqtt-hassio)
 
@@ -89,4 +94,9 @@ The actual python code that runs all the Kamstrup magic has been produced by Mat
 
 Pieter Brinkman provided all necessary hints to configure Home Assistant to use the sensory data from the above script from Matthijs Visser:
 - https://www.pieterbrinkman.com/2022/02/01/make-your-city-heating-stadsverwarming-smart-and-connect-it-home-assistant-energy-dashboard/
-- 
+
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
