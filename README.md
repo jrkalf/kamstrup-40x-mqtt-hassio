@@ -2,7 +2,7 @@
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
-![GitHub](https://img.shields.io/github/license/jrkalf/kamstrup-40x-mqtt-hassio/LICENSE.md)
+![GitHub](https://img.shields.io/github/license/jrkalf/kamstrup-40x-mqtt-hassio)
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
