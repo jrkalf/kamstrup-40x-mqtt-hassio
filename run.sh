@@ -1,14 +1,5 @@
 #!/usr/bin/with-contenv bashio
 
-echo "Hello world!"
-export mqtt_host="$(bashio::config 'mqtt_host')"
-export mqtt_port="$(bashio::config 'mqtt_port')"
-export mqtt_username="$(bashio::config 'mqtt_username')"
-export mqtt_password="$(bashio::config 'mqtt_password')"
-export mqtt_authentication="$(bashio::config 'mqtt_authentication')"
-export serialdevice="$(bashio::config 'serial_device')"
-export pollinterval="$(bashio::config 'poll_interval')"
-
 cd /opt/kamstrup
 echo "Modifying config..."
 sed -i "s/host: .*/host: $(bashio::config 'mqtt_host')/g" config.yaml

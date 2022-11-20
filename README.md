@@ -8,8 +8,11 @@
 ![Supports armhf Architecture][armhf-shield]
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
-![Maintenance](https://img.shields.io/maintenance/yes/2022)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/jrkalf/kamstrup-40x-mqtt-hassio)
+![Maintenance][maintenance-shield]
+
+![GitHub all releases][download-total-shield]
+![GitHub release (latest by date)][download-latest-shield]
+![GitHub commit activity][activity-shield]
 
 This is a Docker wrapper around the github project of Matthijs Visser (https://github.com/matthijsvisser/kamstrup-402-mqtt) to make it available as https://home-assistant.io addon.
 
@@ -100,3 +103,7 @@ Pieter Brinkman provided all necessary hints to configure Home Assistant to use 
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[download-latest-shield]: https://img.shields.io/github/downloads/jrkalf/kamstrup-40x-mqtt-hassio/latest/total
+[download-total-shield]: https://img.shields.io/github/downloads/jrkalf/kamstrup-40x-mqtt-hassio/total
+[activity-shield]: https://img.shields.io/github/commit-activity/y/jrkalf/kamstrup-40x-mqtt-hassio
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022
