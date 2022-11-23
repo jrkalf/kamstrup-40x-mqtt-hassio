@@ -44,12 +44,14 @@ mqtt:
       state_topic: "kamstrup/values"
       value_template: "{{ value_json.energy }}"
       unit_of_measurement: "GJ"
+      state_class: "total_increasing"
       device_class: "gas"
     - name: "CH_Consumed_Water"
       unique_id: b580bd91-18a7-43a3-8793-07c86601c5b5
       state_topic: "kamstrup/values"
       value_template: "{{ value_json.volume }}"
       unit_of_measurement: "m³"
+      state_class: "total_increasing"
     - name: "CH_Temperature_in"
       unique_id: c75cc7f8-46a7-4cb0-83ec-095a724aaa3b
       state_topic: "kamstrup/values"
@@ -81,7 +83,7 @@ mqtt:
 ```
 *The unique_id: fields can be chosen by you. This is the proper way of making sure your sensors are truly unique. I chose to use a UUIDv4 generator to generate unique id's.*
 
-This should provide you with enough sensors for you to read out all sensors and also use the CH_to_Gas as input for the Energy Dashboard.
+This should provide you with enough sensors for you to read out all sensors and also use the CH_to_Gas or CH_Consumed_Energy as input for the Energy Dashboard.
 
 # TO DO
 This is still a work in progress. It currently works with the Kamstrup 403 device. It's known to work with Kamstrup 402 as well, but I still need to code the parity variables.
