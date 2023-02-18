@@ -1,8 +1,6 @@
 #!/usr/bin/with-contenv bashio
 
 cd /opt/kamstrup
-mkdir log
-touch log/debug.log
 echo "Modifying config..."
 sed -i "s/host: .*/host: $(bashio::config 'mqtt_host')/g" config.yaml
 sed -i "s/port: .*/port: $(bashio::config 'mqtt_port')/g" config.yaml
