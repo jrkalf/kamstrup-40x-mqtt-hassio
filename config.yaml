@@ -1,5 +1,5 @@
 ---
-version: 0.1.9
+version: 0.2.1
 slug: kamstrup
 name: Kamstrup 402 & 403 Logger
 description: Kamstrup Warmtemeter data logger
@@ -30,3 +30,4 @@ schema:
   serial_device: device(subsystem=tty)
   poll_interval: int
 init: false
+
