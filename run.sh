@@ -11,4 +11,5 @@ sed -i "s|com_port: .*|com_port: $(bashio::config 'serial_device')|g" config.yam
 sed -i "s/poll_interval: .*/poll_interval: $(bashio::config 'poll_interval')/g" config.yaml
 
 echo "Starting Daemon..."
-/usr/bin/python3 /opt/kamstrup/daemon.py
+/usr/bin/python3 /opt/kamstrup/daemon.py &
+tail -f /opt/kamstrup/logs/debug.log
