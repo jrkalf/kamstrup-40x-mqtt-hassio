@@ -1,3 +1,6 @@
+# Version 0.2.2
+- Changes to run.sh to run the deamon and tail the debug log
+
 # Version 0.2.1
 - Github unbanned my account. Switching back to Github
 
