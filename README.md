@@ -108,4 +108,4 @@ Pieter Brinkman provided all necessary hints to configure Home Assistant to use 
 [download-latest-shield]: https://img.shields.io/github/downloads/jrkalf/kamstrup-40x-mqtt-hassio/latest/total
 [download-total-shield]: https://img.shields.io/github/downloads/jrkalf/kamstrup-40x-mqtt-hassio/total
 [activity-shield]: https://img.shields.io/github/commit-activity/y/jrkalf/kamstrup-40x-mqtt-hassio
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2023
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2024
